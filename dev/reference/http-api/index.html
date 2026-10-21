@@ -1253,6 +1253,8 @@
       
         
       
+        
+      
     
     
     
@@ -1373,6 +1375,34 @@
     
   
     Azure AI Foundry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai-providers/baseten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baseten
   
 
     
@@ -1734,6 +1764,8 @@
       
         
       
+        
+      
     
     
     
@@ -1932,10 +1964,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -2000,6 +2028,34 @@
     
   
     AKS Node Health
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data-sources/builtin-toolsets/atlassian-rovo-mcp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atlassian Rovo (MCP)
   
 
     
@@ -2112,34 +2168,6 @@
     
   
     Azure Kubernetes Service
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../data-sources/builtin-toolsets/azure-sql/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Azure SQL Database
   
 
     
@@ -2804,34 +2832,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data-sources/builtin-toolsets/kubectl-run/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Kubectl Run
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../data-sources/builtin-toolsets/kubernetes/" class="md-nav__link">
         
   
@@ -2952,34 +2952,6 @@
     
   
     MariaDB
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../data-sources/builtin-toolsets/mariadb-mcp/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    MariaDB (MCP)
   
 
     
@@ -3736,6 +3708,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../data-sources/cross-cluster-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cross-Cluster Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../data-sources/header-propagation/" class="md-nav__link">
         
   
@@ -3985,6 +3985,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -4032,6 +4038,90 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/evaluations/history/results_20261010_213752/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ October 10, 2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/evaluations/history/results_20260914_200444/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ September 14, 2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/evaluations/history/results_20260805_121417/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ August 05, 2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -6495,15 +6585,16 @@ with HTTP status <code>401 Unauthorized</code>.</p>
 </tbody>
 </table>
 <h4 id="fast-mode-prompt-controls">Fast Mode &amp; Prompt Controls<a class="headerlink" href="#fast-mode-prompt-controls" title="Permanent link">&para;</a></h4>
-<p>The <code>behavior_controls</code> field lets you selectively enable or disable sections of the system and user prompts. This is the API equivalent of the CLI's <code>--fast-mode</code> flag and gives you fine-grained control over which prompt components HolmesGPT includes.</p>
-<p><strong>Fast mode example</strong> — skip the TodoWrite planning phase for faster, more direct responses:</p>
+<p>The <code>behavior_controls</code> field lets you selectively enable or disable sections of the system and user prompts. This gives you fine-grained control over which prompt components HolmesGPT includes.</p>
+<p><strong>Fast mode is the default</strong>: the TodoWrite planning phase (<code>todowrite_instructions</code> and <code>todowrite_reminder</code>) is disabled unless you turn it on. This is the API equivalent of the CLI's <code>--extended-planning</code> flag.</p>
+<p><strong>Extended planning example</strong> — turn the TodoWrite planning phase on for long, multi-step investigations:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>http://&lt;HOLMES-URL&gt;/api/chat<span class="w"> </span><span class="se">\</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
 </span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
 </span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="s1">    &quot;ask&quot;: &quot;Why is my pod crashing?&quot;,</span>
 </span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="s1">    &quot;behavior_controls&quot;: {</span>
-</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="s1">      &quot;todowrite_instructions&quot;: false,</span>
-</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="s1">      &quot;todowrite_reminder&quot;: false</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="s1">      &quot;todowrite_instructions&quot;: true,</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="s1">      &quot;todowrite_reminder&quot;: true</span>
 </span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="s1">    }</span>
 </span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="s1">  }&#39;</span>
 </span></code></pre></div>
@@ -6525,9 +6616,9 @@ with HTTP status <code>401 Unauthorized</code>.</p>
 <ol>
 <li><strong><code>ENABLED_PROMPTS</code> env var</strong> (highest) — If set on the server, it restricts which sections are allowed. The API cannot re-enable a section the env var disables.</li>
 <li><strong><code>behavior_controls</code></strong> — Enables or disables sections within what the env var allows.</li>
-<li><strong>Default</strong> (lowest) — All sections are enabled.</li>
+<li><strong>Default</strong> (lowest) — All sections are enabled except <code>todowrite_instructions</code> and <code>todowrite_reminder</code> (fast mode).</li>
 </ol>
-<p>The <code>ENABLED_PROMPTS</code> env var accepts a comma-separated list of section keys (e.g., <code>"files,ai_safety,toolset_instructions"</code>) or <code>"none"</code> to disable all sections.</p>
+<p>The <code>ENABLED_PROMPTS</code> env var accepts a comma-separated list of section keys (e.g., <code>"files,ai_safety,toolset_instructions"</code>) or <code>"none"</code> to disable all sections. A section listed in <code>ENABLED_PROMPTS</code> is enabled even if it is disabled by default, unless <code>behavior_controls</code> turns it off.</p>
 <p><strong>Available prompt sections:</strong></p>
 <table>
 <thead>
@@ -6551,7 +6642,7 @@ with HTTP status <code>401 Unauthorized</code>.</p>
 <tr>
 <td><code>todowrite_instructions</code></td>
 <td>System</td>
-<td>TodoWrite planning tool instructions</td>
+<td>TodoWrite planning tool instructions (disabled by default)</td>
 </tr>
 <tr>
 <td><code>ai_safety</code></td>
@@ -6596,7 +6687,7 @@ with HTTP status <code>401 Unauthorized</code>.</p>
 <tr>
 <td><code>todowrite_reminder</code></td>
 <td>User</td>
-<td>Reminder to use TodoWrite for task tracking</td>
+<td>Reminder to use TodoWrite for task tracking (disabled by default)</td>
 </tr>
 <tr>
 <td><code>time_skills</code></td>
@@ -6762,7 +6853,7 @@ with HTTP status <code>401 Unauthorized</code>.</p>
 </tbody>
 </table>
 <h4 id="tool-approval-behavior">Tool Approval Behavior<a class="headerlink" href="#tool-approval-behavior" title="Permanent link">&para;</a></h4>
-<p>The <code>enable_tool_approval</code> field controls how HolmesGPT handles tools that require approval (e.g., bash commands not in the allow list, or commands that bashlex cannot parse).</p>
+<p>The <code>enable_tool_approval</code> field controls how HolmesGPT handles tools that require approval (e.g., bash commands not in the allow list, or commands that cannot be safely parsed).</p>
 <p><strong>When <code>enable_tool_approval: true</code> (interactive clients):</strong></p>
 <p>The stream pauses and emits an <code>approval_required</code> event with the pending tool calls. The client must send a follow-up request with <code>tool_decisions</code> to approve or deny each tool call. See the <a href="#approval_required">approval_required</a> event for details.</p>
 <p><strong>When <code>enable_tool_approval: false</code> (default, server/automation):</strong></p>
